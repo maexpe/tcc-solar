@@ -1,0 +1,45 @@
+{
+    "sol": {
+      "nome": "Sol",
+      "tipo": "Estrela de classe G da sequência principal",
+      "imagem": "img/sol.jpg", 
+      "simbolo": "img/sol-s.jpg",
+      "distancia_terra": "149,6 milhões de km (1 UA)",
+      "raio": "695,7 milhões de km",
+      "massa": "2 nonilhões de kg (2 x 10^30 kg)",
+      "temperatura": "15,7 milhões K",
+      "fatos": [
+        "O Sol é uma estrela de classe G da sequência principal, mais comumente conhecida como uma anã amarela, de 4,5 bilhões de anos de idade.",
+        "O Sol é uma bola de gás eletricamente carregado superquente (plasma) inflada e aquecida pela energia produzida por reações de fusão nuclear em seu núcleo.",
+        "O Sol é a única estrela do nosso sistema, e sem a sua energia, a vida como a conhecemos não poderia existir em nosso planeta.",
+        "O Sol é por volta de 100 vezes maior que a Terra e 10 vezes maior que Júpiter, o maior planeta do Sistema Solar.",
+        "Tudo em nosso sistema solar gira em torno do Sol - todos os planetas, asteroides, cometas e pequenos resíduos espaciais.",
+        "O plasma do Sol circula em diferentes velocidades dependendo da parte da estrela em que se encontra. Em seu equador, o Sol completa uma rotação em 25 dias terrestres - em seus polos, o Sol rotaciona uma vez em seu eixo a cada 36 dias terrestres.",
+        "Sendo uma bola de plasma, o Sol não possui uma superfície sólida. A parte do Sol visível da Terra é a protosfera.",
+        "Acima da superfície do Sol estão sua fina cromosfera e sua corona. É na corona que ocorrem as tempestades solares, gigantescas explosões de energia e partículas que podem alcançar a Terra.",
+        "Vários veículos espaciais estão atualmente investigando o Sol, incluindo o Parker Solar Probe, STEREO, Solar Orbiter, SOHO, Solar Dynamics Observatory, Hinode, IRIS e Wind.",
+        "O Sol era rodeado por um disco de gás e poeira durante sua origem, quando o sistema solar estava se formando há 4,6 bilhões de anos. Um pouco dessa poeira ainda existe, em vários anéis de poeira que circulam o Sol.",
+        "A temperatura no núcleo do Sol é de aproximidamente 15 milhões de graus Celsius, quente suficiente para manter fusões nucleares. Isto cria pressão externa que suporta a massa gigantesca do Sol, impedindo-o de entrar em colapso."
+      ]
+    },
+    "mercurio": {
+        "nome": "Mercúrio",
+        "tipo": "Planeta rochoso",
+        "imagem": "img/mercurio.jpg", 
+        "simbolo": "img/mercurio-s.jpg",
+        "distancia_terra": "88,296 milhões de km (0,59 UA)",
+        "raio": "2,4397 mil km",
+        "massa": "3 sextilhões de kg (3 x 10^23 kg)",
+        "temperatura": "437 K",
+        "satelites": "Nenhum",
+        "fatos": [
+          "Com um raio de aproximadamente 2,5 mil quilômetros, Mercúrio é só um pouco maior que a Lua da Terra.",
+          "Assim como a Lua, Mercúrio possui várias crateras em sua superfície.",
+          "Mercúrio não possui satélites naturais ou anéis.",
+          "Mercúrio é o planeta mais próximo do Sol, e a luz do sol é 11 vezes mais clara do que na Terra.",
+          "A exosfera de Mercúrio é extremamente fina, e o planeta não poderia suportar vida como a conhecemos.",
+          "Um dia inteiro em Mercúrio dura por volta de 176 dias terrestres, e um ano leva 88 dias terrestres.",
+          "Em Mercúrio, a Caloris Planitia é uma planície com uma grande bacia de impacto chamada informalmente de Caloris, com aproximadamente 1,55 mil km de diâmetro. É uma das maiores bacias de impacto no Sistema Solar."
+        ]
+    }
+}  
