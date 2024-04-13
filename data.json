@@ -1,12 +1,13 @@
 {
     "sol": {
       "nome": "Sol",
+      "slogan": "O astro-rei",
       "tipo": "Estrela de classe G da sequência principal",
       "imagem": "img/sol.jpg", 
       "simbolo": "img/sol-s.jpg",
       "distancia_terra": "149,6 milhões de km (1 UA)",
       "raio": "695,7 milhões de km",
-      "massa": "2 nonilhões de kg (2 x 10^30 kg)",
+      "massa": "2 x 10^30 kg",
       "temperatura": "15,7 milhões K",
       "fatos": [
         "O Sol é uma estrela de classe G da sequência principal, mais comumente conhecida como uma anã amarela, de 4,5 bilhões de anos de idade.",
@@ -24,6 +25,7 @@
     },
     "mercurio": {
         "nome": "Mercúrio",
+        "slogan": "O primeiro",
         "tipo": "Planeta rochoso",
         "imagem": "img/mercurio.jpg", 
         "simbolo": "img/mercurio-s.jpg",
@@ -41,5 +43,45 @@
           "Um dia inteiro em Mercúrio dura por volta de 176 dias terrestres, e um ano leva 88 dias terrestres.",
           "Em Mercúrio, a Caloris Planitia é uma planície com uma grande bacia de impacto chamada informalmente de Caloris, com aproximadamente 1,55 mil km de diâmetro. É uma das maiores bacias de impacto no Sistema Solar."
         ]
+    },
+    "venus": {
+      "nome": "Vênus",
+      "slogan": "Nosso \"gêmeo do mal\"",
+      "tipo": "Planeta rochoso",
+      "imagem": "img/venus.jpg",
+      "simbolo": "img/venus-s.jpg",
+      "distancia_terra": "41 milhões de km (0,28 UA)",
+      "raio": "6,0518 mil km",
+      "massa": "4,867 x 10^24 kg",
+      "temperatura": "462 K",
+      "satelites": "Nenhum",
+      "fatos": [
+        "Vênus é conhecido como o \"planeta-irmão\" da Terra devido ao tamanho e a composição semelhantes entre eles.",
+        "Apesar de ser o segundo planeta mais próximo do Sol, Vênus é mais quente que Mercúrio, o planeta mais próximo.",
+        "Vênus possui uma superfície extremamente quente e densa e atividade vulcânica ativa.",
+        "A atmosfera de Vênus é composta principalmente por dióxido de carbono, o que a torna tóxica para a vida como a conhecemos.",
+        "Vênus possui um dia longo e lento que dura mais de 243 dias terrestres.",
+        "Diferente dos outros planetas do Sistema Solar, Vênus gira ao redor do seu eixo no sentido anti-horário. Sob a perspectiva da Terra, é como se Vênus estivesse de \"cabeça para baixo.\"",
+        "Apesar de suas condições extremas, é teorizado que Vênus já possuiu água em sua superfície e já foi habitável por 3 bilhões de anos."
+      ]
+    },
+    "terra": {
+      "nome": "Terra",
+      "slogan": "Você está aqui!",
+      "tipo": "Planeta rochoso",
+      "imagem": "img/terra.jpg",
+      "simbolo": "img/terra-s.jpg",
+      "raio": "6,371 mil km",
+      "massa": "5,972 x 10^24 kg",
+      "temperatura": "15 °C",
+      "satelites": "1 (Lua)",
+      "fatos": [
+        "A Terra é o único planeta do universo conhecido por abrigar vida.",
+        "A Terra é o terceiro planeta mais próximo do Sol.",
+        "A Terra possui uma atmosfera rica em oxigênio, essencial para a existência da vida.",
+        "A superfície da Terra é composta principalmente por água, com continentes rochosos e oceanos sobre a crosta terrestre.",
+        "A Terra é um \"mundo oceânico\", um oásis na vastidão do espaço, com uma diversidade única de vida no universo.",
+        "A Terra enfrenta diversos desafios ambientais, ecológicos e sociais, como mudanças climáticas e conflitos bélicos, que precisam ser urgentemente abordados para garantir um futuro sustentável."
+      ]
     }
 }  
