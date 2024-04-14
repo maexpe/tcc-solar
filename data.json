@@ -2,7 +2,7 @@
     "sol": {
       "nome": "Sol",
       "slogan": "O astro-rei",
-      "tipo": "Estrela de classe G da sequência principal",
+      "tipo": "Estrela espectral de classe G2V da sequência principal",
       "imagem": "img/sol.jpg", 
       "simbolo": "img/sol-s.jpg",
       "distancia_terra": "149,6 milhões de km (1 UA)",
@@ -30,9 +30,9 @@
         "imagem": "img/mercurio.jpg", 
         "simbolo": "img/mercurio-s.jpg",
         "distancia_terra": "88,296 milhões de km (0,59 UA)",
-        "raio": "2,4397 mil km",
+        "raio": "2.439,7 km",
         "massa": "3 sextilhões de kg (3 x 10^23 kg)",
-        "temperatura": "437 K",
+        "temperatura": "437 K (163,85 °C)",
         "satelites": "Nenhum",
         "fatos": [
           "Com um raio de aproximadamente 2,5 mil quilômetros, Mercúrio é só um pouco maior que a Lua da Terra.",
@@ -51,9 +51,9 @@
       "imagem": "img/venus.jpg",
       "simbolo": "img/venus-s.jpg",
       "distancia_terra": "41 milhões de km (0,28 UA)",
-      "raio": "6,0518 mil km",
+      "raio": "6.051,8 km",
       "massa": "4,867 x 10^24 kg",
-      "temperatura": "462 K",
+      "temperatura": "462 K (188,85 °C)",
       "satelites": "Nenhum",
       "fatos": [
         "Vênus é conhecido como o \"planeta-irmão\" da Terra devido ao tamanho e a composição semelhantes entre eles.",
@@ -71,9 +71,9 @@
       "tipo": "Planeta rochoso",
       "imagem": "img/terra.jpg",
       "simbolo": "img/terra-s.jpg",
-      "raio": "6,371 mil km",
+      "raio": "6.371 km",
       "massa": "5,972 x 10^24 kg",
-      "temperatura": "15 °C",
+      "temperatura": "288,15 K (15 °C)",
       "satelites": "1 (Lua)",
       "fatos": [
         "A Terra é o único planeta do universo conhecido por abrigar vida.",
@@ -83,5 +83,132 @@
         "A Terra é um \"mundo oceânico\", um oásis na vastidão do espaço, com uma diversidade única de vida no universo.",
         "A Terra enfrenta diversos desafios ambientais, ecológicos e sociais, como mudanças climáticas e conflitos bélicos, que precisam ser urgentemente abordados para garantir um futuro sustentável."
       ]
+    },
+    "marte": {
+        "nome": "Marte",
+        "slogan": "Feliz aniversário, Curiosity",
+        "tipo": "Planeta rochoso",
+        "imagem": "img/marte.jpg",
+        "simbolo": "img/marte-s.jpg",
+        "distancia_terra": "54,6 milhões de km (0,36 UA)",
+        "raio": "3.390 km",
+        "massa": "6,417 x 10^23 kg",
+        "temperatura": "210,15 K (-63 °C)",
+        "satelites": "2 (Fobos e Deimos)",
+        "fatos": [
+          "Marte é conhecido como o \"Planeta Vermelho\" devido à cor de sua superfície. Minerais de férro no solo marciano passam por oxidação, causando o vermelho no solo e na atmosfera do planeta.",
+          "Marte é o quarto planeta mais próximo do Sol.",
+          "Marte possui uma atmosfera extremamente fina composta principalmente por dióxido de carbono (CO2).",
+          "A superfície de Marte é marcada por crateras de impacto, cânions e vulcões.",
+          "Olympus Mons é o mais alto vulcão de Marte: duas vezes e meia mais alto que o Monte Everest, e empatado com Rheasilvia no asteroide Vesta como a mais alta montanha planetária no Sistema Solar.",
+          "Há indícios de que Marte já teve água líquida no passado, o que levanta a possibilidade do planeta suportar vida como a conhecemos no futuro.",
+          "Atualmente, Marte é um planeta extremamente árido e frio, mas é um importante alvo para exploração espacial e busca por vida extraterrestre.",
+          "Fobos e Deimos são os nomes das duas luas de Marte. Na mitologia grega, Fobos é deus do medo e do pânico e seu irmão gêmeo Deimos é deus do terror e horror. Ambos são filhos de Ares, deus da guerra, e o acompanhavam em batalha. Ares era conhecido pelos romanos como Marte."
+        ]
+    },
+    "jupiter": {
+        "nome": "Júpiter",
+        "slogan": "Valeu, Júpiter!",
+        "tipo": "Gigante gasoso",
+        "imagem": "img/jupiter.jpg",
+        "simbolo": "img/jupiter-s.jpg",
+        "distancia_terra": "778 milhões de km (5,2 UA)",
+        "raio": "71.492 km",
+        "massa": "1,898 x 10^27 kg",
+        "temperatura": "128,15 K (-145 °C)",
+        "satelites": "Entre 80 e 95 (incluindo Io, Europa, Ganimedes e Calisto)",
+        "fatos": [
+          "Júpiter é o maior planeta do Sistema Solar, com massa duas vezes e meia maior que todos os outros planetas do sistema juntos.",
+          "Júpiter é conhecido por sua Grande Mancha Vermelha, uma tempestade anticiclônica gigantesca que perdura há séculos, maior que a própria Terra.",
+          "Júpiter possui um forte campo magnético que possibilita auroras polares semelhantes às da Terra.",
+          "As luas galileanas são as quatro maiores luas de Júpiter: Io, Europa, Ganimedes e Calisto, chamadas assim por terem sido descobertas por Galileo Galilei no século XVII.",
+          "Júpiter possui muitos satélites naturais, alguns dos quais são maiores que planetas como Mercúrio, como Ganimedes, que, embora seja menos maciço que Mercúrio, é a maior lua do Sistema Solar.",
+          "O campo gravitacional gigantesco de Júpiter protege a Terra e outros exoplanetas de cometas e asteroides atraindo-os para longe. A vida na Terra possivelmente não seria possível sem essa proteção.",
+          "Júpiter é um gigante gasoso composto principalmente por hidrogênio e hélio."
+        ] 
+    },
+    "saturno": {
+      "nome": "Saturno",
+      "slogan": "O Senhor dos Anéis",
+      "tipo": "Gigante gasoso",
+      "imagem": "img/saturno.jpg",
+      "simbolo": "img/saturno-s.jpg",
+      "distancia_terra": "1,433 milhões de km (9,5 UA)",
+      "raio": "60.268 km",
+      "massa": "5,683 x 10^26 kg",
+      "temperatura": "95,15 K (-178 °C)",
+      "satelites": "146 (incluindo Titã, Reia, Júpiter, Dione e Tétis)",
+      "fatos": [
+        "Saturno é mais conhecido por seus anéis, compostos por bilhões de partículas de gelo e rochas. Os anéis de Saturno são os mais complexo de sistema de anel de qualquer planeta no Sistema Solar.",
+        "Saturno o segundo maior planeta do Sistema Solar.",
+        "Assim como seu \"irmão\" Júpiter, Saturno é um gigante gasoso que possui uma atmosfera densa composta principalmente por hidrogênio e hélio, e um forte campo magnético e auroras polares.",
+        "Saturno é o planeta do Sistema Solar com a maior quantidade de satélites naturais, alguns dos quais possuem oceanos subterrâneos.",
+        "A densidade de Saturno é a menor do Sistema Solar, com apenas 0,687 g/cm^3; tão leve que até mesmo seria capaz de flutuar em água.",
+        "Titã é a maior lua de Saturno e a segunda maior do Sistema Solar, atrás apenas de Ganimedes, lua de Júpiter. Titã é frequentemente descrito como uma \"lua de massa planetária.\"", 
+        "Titã é a única lua conhecida que possua atmosfera mais densa que a da Terra, e o único objeto no espaço além da Terra na qual haja evidência clara de corpos estáveis de água na superfície.",
+        "Com um telescópio e momentos adequados, é possível ver nitidamente Saturno e cada uma das divisões dos seus anéis."
+      ]
+    },
+    "urano": {
+      "nome": "Urano",
+      "slogan": "É mais engraçado em inglês",
+      "tipo": "Gigante gelado",
+      "imagem": "img/urano.jpg",
+      "simbolo": "img/urano-s.jpg",
+      "distancia_terra": "2,871 milhões de km (19,2 UA)",
+      "raio": "25.559 km",
+      "massa": "8,681 x 10^25 kg",
+      "temperatura": "49,15 K (-224 °C)",
+      "satelites": "28 (incluindo Ariel, Puck, Miranda, Umbriel, Titânia e Oberon)",
+      "fatos": [
+        "Urano é um gigante gelado conhecido por seu sutil anel e uma rotação inclinada, que o faz parecer girar de lado ao redor de seu eixo.",
+        "Urano é o sétimo planeta do Sistema Solar.",
+        "Urano é majoritariamente composto por água, amôni e metano em uma fase supercrítica de matéria, e uma singular coloração em ciano.",
+        "Urano tem um sistema de anéis mais fracos e menos distintos que os de Saturno, mas ainda assim visíveis.",
+        "A maioria das luas de Urano possuem nomes de personagens que aparecem ou são mencionadas em obras de William Shakespeare e Alexander Pope.",
+        "Urano possui cinco luas maiores (Miranda, Ariel, Umbriel, Titânia e Oberon), 13 luas internas menores e nove luas irregulares conhecidas.",
+        "Urano é visível a olho nu, mas é bem elusivo e não era classificado como um planeta até 1781."
+      ]
+    },
+    "netuno": {
+        "nome": "Netuno",
+        "slogan": "Te vejo lá",
+        "tipo": "Gigante gelado",
+        "imagem": "img/netuno.jpg",
+        "simbolo": "img/netuno-s.jpg",
+        "distancia_terra": "4,504 milhões de km (30,1 UA)",
+        "raio": "24.764 km",
+        "massa": "1,024 x 10^26 kg",
+        "temperatura": "55,15 K (-218 °C)",
+        "satelites": "16 (incluindo Tritão, Nereida, Proteu e Larissa)",
+        "fatos": [
+          "Netuno é o oitavo e mais distante planeta do Sistema Solar, e o quarto maior, menor que Urano. Leva o nome do deus romano dos mares.",
+          "Netuno não é visível a olho nu. As luas galileanas de Júpiter, o planeta anão Ceres e diversos asteroides são mais brilhantes que Netuno.",
+          "Netuno é conhecido por seus ventos fortes e pela sua Grande Mancha Escura, uma tempestade anticiclônica similar à de Júpiter.",
+          "Possui uma atmosfera composta principalmente por hidrogênio, hélio e metano, e possui água e amônia assim como Urano.",
+          "Além da Grande Mancha Escura, Netuno já possuiu uma outra tempestade menor conhecida como Pequena Mancha Escura, ou o \"Olho do Mago.\"",
+          "Tritão é o maior satélite natural de netuno e o único grande o suficiente para ser esferoidal. Leva o nome de um deus marinho da mitologia grega, filho de Poseidon e Anfitrite."
+        ]
+    },
+    "plutao": {
+        "nome": "Plutão",
+        "slogan": "Para sempre um planeta (em nossos corações)",
+        "tipo": "Planeta anão",
+        "imagem": "img/plutao.jpg",
+        "simbolo": "img/plutao-s.jpg",
+        "distancia_terra": "4,9 bilhões de km (39,5 UA)",
+        "raio": "1.237,8 km",
+        "massa": "6,39 x 10^23 kg",
+        "temperatura": "45,15 K (-228 °C)",
+        "satelites": "5 (Caronte, Estige, Nix, Hidra e Cérbero)",
+        "fatos": [
+          "Antes identificado como planeta, Plutão foi reclassificado como planeta anão em 2006 pela União Astronômica Internacional.",
+          "Plutão é o nono e mais distante objeto que costumava ser considerado planeta orbitando o Sol.",
+          "Plutão possui uma superfície gelada composta principalmente por nitrogênio, metano e monóxido de carbono (CO).",
+          "Plutão possui um sistema de cinco luas, sendo Caronte a maior e a única com uma atmosfera tênue.",
+          "Plutão é nome do deus grego dos mortos, paralelo a Hades. Os nomes de suas luas também são de entidades da mitologia grega: Caronte, por exemplo, é o barqueiro dos mortos.",
+          "Plutão orbita o Sol em uma trajetória elíptica, o que significa que sua distância ao Sol varia ao longo do ano. Desde a sua descoberta em 1930, Plutão ainda não completou uma órbita total ao redor do Sol.",
+          "Tombaugh Regio, o \"coração de Plutão\", é a maior estrutura clara da superfície de Plutão."
+        ]
     }
 }  
