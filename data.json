@@ -9,6 +9,7 @@
       "raio": "695,7 milhões de km",
       "massa": "2 x 10^30 kg",
       "temperatura": "15,7 milhões K",
+      "satelites": "N/A",
       "fatos": [
         "O Sol é uma estrela de classe G da sequência principal, mais comumente conhecida como uma anã amarela, de 4,5 bilhões de anos de idade.",
         "O Sol é uma bola de gás eletricamente carregado superquente (plasma) inflada e aquecida pela energia produzida por reações de fusão nuclear em seu núcleo.",
@@ -71,6 +72,7 @@
       "tipo": "Planeta rochoso",
       "imagem": "img/terra.jpg",
       "simbolo": "img/terra-s.jpg",
+      "distancia_terra": "0",
       "raio": "6.371 km",
       "massa": "5,972 x 10^24 kg",
       "temperatura": "288,15 K (15 °C)",
