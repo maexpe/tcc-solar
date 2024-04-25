@@ -4,64 +4,88 @@ const mainContainer = document.getElementById('main-container');
 fetch('./data.json')
     .then(response => response.json())
     .then(data => {
-        setupCelestialBodies(data);
+        setupCorpoCelestial(data);
     });
 
-function setupCelestialBodies(data) {
+function setupCorpoCelestial(data) {
     // Loop por cada corpo celestial
     for (const bodyName in data) {
         const bodyData = data[bodyName];
 
         // Cria um container básico para cada corpo
         const bodyContainer = document.createElement('div');
-        bodyContainer.classList.add('celestial-body');
+        bodyContainer.classList.add('corpo-celestial');
         bodyContainer.style.display = 'none'; // Inicialmente ocultos
 
-        const nameElement = document.createElement('h2');
-        nameElement.textContent = bodyData.nome;
-        bodyContainer.appendChild(nameElement);
+        const nomeElement = document.createElement('h2');
+        nomeElement.textContent = bodyData.nome;
+        bodyContainer.appendChild(nomeElement);
 
-        const sloganElement = document.createElement('p');
+        const sloganElement = document.createElement('h3');
         sloganElement.classList.add('slogan');
         sloganElement.textContent = bodyData.slogan;
         bodyContainer.appendChild(sloganElement);
 
-        const typeElement = document.createElement('p');
-        typeElement.textContent = `Tipo: ${bodyData.tipo}`;
-        bodyContainer.appendChild(typeElement);
+        const tipoElement = document.createElement('p');
+        tipoElement.textContent = `Tipo: ${bodyData.tipo}`;
+        bodyContainer.appendChild(tipoElement);
 
-        const imageElement = document.createElement('img');
-        imageElement.src = bodyData.imagem;
-        bodyContainer.appendChild(imageElement);
+        const imagemElement = document.createElement('img');
+        imagemElement.src = bodyData.imagem;
+        bodyContainer.appendChild(imagemElement);
 
-        const symbolElement = document.createElement('img');
-        symbolElement.src = bodyData.simbolo;
-        bodyContainer.appendChild(symbolElement);
+        const simboloElement = document.createElement('img');
+        simboloElement.src = bodyData.simbolo;
+        bodyContainer.appendChild(simboloElement);
 
-        const distanceElement = document.createElement('p');
-        distanceElement.textContent = `Distância da Terra: ${bodyData.distancia_terra}`;
-        bodyContainer.appendChild(distanceElement);
+        const distanciaElement = document.createElement('p');
+        distanciaElement.textContent = `Distância da Terra: ${bodyData.distancia_terra}`;
+        bodyContainer.appendChild(distanciaElement);
 
-        const radiusElement = document.createElement('p');
-        radiusElement.textContent = `Raio: ${bodyData.raio}`;
-        bodyContainer.appendChild(radiusElement);
+        const raioElement = document.createElement('p');
+        raioElement.textContent = `Raio: ${bodyData.raio}`;
+        bodyContainer.appendChild(raioElement);
 
-        const massElement = document.createElement('p');
-        massElement.textContent = `Massa: ${bodyData.massa}`;
-        bodyContainer.appendChild(massElement);
+        const massaElement = document.createElement('p');
+        massaElement.textContent = `Massa: ${bodyData.massa}`;
+        bodyContainer.appendChild(massaElement);
 
-        const temperatureElement = document.createElement('p');
-        temperatureElement.textContent = `Temperatura: ${bodyData.temperatura}`;
-        bodyContainer.appendChild(temperatureElement);
+        const temperaturaElement = document.createElement('p');
+        temperaturaElement.textContent = `Temperatura: ${bodyData.temperatura}`;
+        bodyContainer.appendChild(temperaturaElement);
 
-        const satelliteElement = document.createElement('p');
-        satelliteElement.textContent = `Satélites naturais: ${bodyData.satelites}`;
-        bodyContainer.appendChild(satelliteElement);
+        const satelitesElement = document.createElement('p');
+        satelitesElement.textContent = `Satélites naturais: ${bodyData.satelites}`;
+        bodyContainer.appendChild(satelitesElement);
 
-        const factsElement = document.createElement('ul');
-        factsElement.textContent = `Fatos: ${bodyData.fatos}`;
-        bodyContainer.appendChild(factsElement);
+        const fatosElement = document.createElement('ul');
+        fatosElement.textContent = `Fatos:\n${bodyData.fatos}`;
+        bodyContainer.appendChild(fatosElement);
 
         mainContainer.appendChild(bodyContainer);
     }
+}
+
+function populateCorpoCelestial(bodyName) {
+    const bodyContainer = document.querySelector(`.corpo-celestial[data-id="${bodyName}"]`);
+
+    // Recebe dados do objeto do arquivo JSON
+    fetch('./data.json')
+    .then(response => response.json())
+    .then(data => {
+        const bodyData = data[bodyName]; // Acessa os dados do corpo
+
+        // Popula os elementos HTML
+        bodyContainer.querySelector('h2').textContent = bodyData.nome;
+        bodyContainer.querySelector('h3').textContent = bodyData.slogan;
+        bodyContainer.querySelector('p').textContent = bodyData.tipo;
+        bodyContainer.querySelector('img').src = bodyData.imagem;
+        bodyContainer.querySelector('img').src = bodyData.simbolo;
+        bodyContainer.querySelector('p:{nth-child(5)').textContent = `Distância da Terra: ${bodyData.distancia_terra}`;
+        bodyContainer.querySelector('p:{nth-child(6)').textContent = `Raio: ${bodyData.raio}`;
+        bodyContainer.querySelector('p:{nth-child(7)').textContent = `Massa: ${bodyData.massa}`;
+        bodyContainer.querySelector('p:{nth-child(8)').textContent = `Temperatura: ${bodyData.temperatura}`;
+        bodyContainer.querySelector('p:{nth-child(9)').textContent = `Satélites naturais: ${bodyData.satelites}`;
+        bodyContainer.querySelector('ul').textContent = `Fatos:\n${bodyData.fatos}`;
+    });
 }
